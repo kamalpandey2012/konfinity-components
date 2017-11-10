@@ -63,10 +63,10 @@ id: topicQueryPage
 
 id: topicQueryForm
 
-## 13 coursePreviousQueries
-![alt text](./design/component/coursePreviousQueries.png "#coursePreviousQueries")
+## 13 topicPreviousQueries
+![alt text](./design/component/topicPreviousQueries.png "#topicPreviousQueries")
 
-id: coursePreviousQueries
+id: topicPreviousQueries
 
 ## 14 topicInfoBoard
 ![alt text](./design/component/topicInfoBoard.png "#topicInfoBoard")
