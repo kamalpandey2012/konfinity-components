@@ -7,96 +7,104 @@
 
 id: primaryNavigation
 
-## 2 sidebarAlreadyCompleted
+## 2 menuButton
+![alt text](./design/component/menuButton.png "#menuButton")
+
+id: menuButton
+
+## 3 sidebar
+![alt text](./design/component/sidebar.png "#sidebar")
+
+id: sidebar
+
+## 4 sidebarAlreadyCompleted
 ![alt text](./design/component/sidebarAlreadyCompleted.png "#sidebarAlreadyCompleted")
 
 id: sidebarAlreadyCompleted
 
-## 3 topicQueryForm
-![alt text](./design/component/topicQueryForm.png "#topicQueryForm")
+## 5 sidebarMentors
+![alt text](./design/component/sidebarMentors.png "#sidebarMentors")
 
-id: topicQueryForm
+id: sidebarMentors
 
-## 4 problemDashboard
-![alt text](./design/component/problemDashboard.png "#problemDashboard")
+## 6 userInfoCard
+![alt text](./design/component/userInfoCard.png "#userInfoCard")
 
-id: problemDashboard
+id: userInfoCard
 
-## 5 courseDescription
-![alt text](./design/component/courseDescription.png "#courseDescription")
-
-id: courseDescription
-
-## 6 coursePreviousQueries
-![alt text](./design/component/coursePreviousQueries.png "#coursePreviousQueries")
-
-id: coursePreviousQueries
-
-## 7 problemIde
-![alt text](./design/component/problemIde.png "#problemIde")
-
-id: problemIde
-## 8 userDashboard
+## 7 userDashboard
 ![alt text](./design/component/userDashboard.png "#userDashboard")
 
 id: userDashboard
+
+
+## 8 courseDescription
+![alt text](./design/component/courseDescription.png "#courseDescription")
+
+id: courseDescription
 
 ## 9 courseObjectives
 ![alt text](./design/component/courseObjectives.png "#courseObjectives")
 
 id: courseObjectives
 
-## 10 problemDisplayBoard
-![alt text](./design/component/problemDisplayBoard.png "#problemDisplayBoard")
-
-id: problemDisplayBoard
-
-## 11 userInfoCard
-![alt text](./design/component/userInfoCard.png "#userInfoCard")
-
-id: userInfoCard
-
-## 12 courseProblemsOverview
+## 10 courseProblemsOverview
 ![alt text](./design/component/courseProblemsOverview.png "#courseProblemsOverview")
 
 id: courseProblemsOverview
 
-## 13 moduleActiveCard
-![alt text](./design/component/moduleActiveCard.png "#moduleActiveCard")
+## 11 topicQueryPage
+![alt text](./design/component/topicQueryPage.png "#topicQueryPage")
 
-id: moduleActiveCard
+id: topicQueryPage
 
-## 14 courseModulesOverview
-![alt text](./design/component/courseModulesOverview.png "#courseModulesOverview")
+## 12 topicQueryForm
+![alt text](./design/component/topicQueryForm.png "#topicQueryForm")
 
-id: courseModulesOverview
+id: topicQueryForm
 
-## 15 menuButton
-![alt text](./design/component/menuButton.png "#menuButton")
+## 13 coursePreviousQueries
+![alt text](./design/component/coursePreviousQueries.png "#coursePreviousQueries")
 
-id: menuButton
+id: coursePreviousQueries
 
-## 16 sidebar
-![alt text](./design/component/sidebar.png "#sidebar")
-
-id: sidebar
-
-## 17 topicInfoBoard
+## 14 topicInfoBoard
 ![alt text](./design/component/topicInfoBoard.png "#topicInfoBoard")
 
 id: topicInfoBoard
 
-## 18 sidebarMentors
-![alt text](./design/component/sidebarMentors.png "#sidebarMentors")
+## 15 problemDashboard
+![alt text](./design/component/problemDashboard.png "#problemDashboard")
 
-id: sidebarMentors
+id: problemDashboard
 
-## 19 moduleInactiveCard
+## 16 problemDisplayBoard
+![alt text](./design/component/problemDisplayBoard.png "#problemDisplayBoard")
+
+id: problemDisplayBoard
+
+## 17 problemIde
+![alt text](./design/component/problemIde.png "#problemIde")
+
+id: problemIde
+
+## 18 courseModulesOverview
+![alt text](./design/component/courseModulesOverview.png "#courseModulesOverview")
+
+id: courseModulesOverview
+
+## 19 moduleActiveCard
+![alt text](./design/component/moduleActiveCard.png "#moduleActiveCard")
+
+id: moduleActiveCard
+
+
+## 20 moduleInactiveCard
 ![alt text](./design/component/moduleInactiveCard.png "#moduleInactiveCard")
 
 id:moduleInactiveCard
 
-## 20 topicQueryPage
-![alt text](./design/component/topicQueryPage.png "#topicQueryPage")
 
-id: topicQueryPage
+
+
+
