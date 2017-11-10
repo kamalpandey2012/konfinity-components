@@ -28,7 +28,7 @@ id: problemDashboard
 id: courseDescription
 
 ## 6 coursePreviousQueries
-![alt text](./design/component/coursePreviousQueries "#coursePreviousQueries")
+![alt text](./design/component/coursePreviousQueries.png "#coursePreviousQueries")
 
 id: coursePreviousQueries
 
@@ -97,6 +97,6 @@ id: sidebarMentors
 id:moduleInactiveCard
 
 ## 20 topicQueryPage
-![alt text](./design/component/topicQueryPage "#topicQueryPage")
+![alt text](./design/component/topicQueryPage.png "#topicQueryPage")
 
 id: topicQueryPage
