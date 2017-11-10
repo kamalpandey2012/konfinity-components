@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Description</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="courseDescription">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-8 col-xs-12 course-description">
+                  <div class="main-content"> 
+                    <header>Programming Fundamentals</header>
+                    <div class="row-fluid rating">
+                         <div class="star-rating">
+                            <span class="fa fa-star-o" data-rating="1"></span>
+                            <span class="fa fa-star-o" data-rating="2"></span>
+                            <span class="fa fa-star-o" data-rating="3"></span>
+                            <span class="fa fa-star-o" data-rating="4"></span>
+                            <span class="fa fa-star-o" data-rating="5"></span>
+                            <input type="hidden" name="whatever1" class="rating-value" value="2.5">
+                          </div>
+                        <span class="by">by</span>
+                        <span class="rating-by">Kamal Pandey</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est suscipit pariatur perferendis in dolor dicta cupiditate nostrum obcaecati magni recusandae. Similique natus quis dolorum totam?</p>
+                    <div class="row course-options">
+                        <div class="col-md-3 col-sm-6 col-xs-6">
+                            <button class="option-button resume">Resume Course</button>
+                            </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6">
+                            <button class="option-button"><i class="fa fa-bookmark"></i>Bookmark</button>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6">
+                            <button class="option-button"><i class="fa fa-mentor"></i>Mentoring</button>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6">
+                            <button class="option-button"><i class="fa fa-screen"></i>Bookmark</button>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+                <div class="col-md-5 col-sm-4 col-xs-12 course-objective">
+                    <header>Topics we will learn</header>
+                    <ul class="topics-list">
+                        <li class="topic">Introduction</li>
+                        <li class="topic">Rules Of Programming Language</li>
+                        <li class="topic">Working with data</li>
+                        <li class="topic active">Managing program flow</li>
+                        <li class="topic">Managing thing modular</li>
+                        <li class="topic">Programming in real world</li>  
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+<!-- jQuery and Bootstrap JS CDN   -->
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+<!--  Star Rating   -->
+<script>
+var $star_rating = $('.star-rating .fa');
+
+var SetRatingStar = function() {
+  return $star_rating.each(function() {
+      //all the floats are being converted to nearest integer
+    if (parseInt($star_rating.siblings('input.rating-value').val()) >= parseInt($(this).data('rating'))) {
+      return $(this).removeClass('fa-star-o').addClass('fa-star');
+    } else {
+      return $(this).removeClass('fa-star').addClass('fa-star-o');
+    }
+  });
+};
+
+$star_rating.on('click', function() {
+  $star_rating.siblings('input.rating-value').val($(this).data('rating'));
+  return SetRatingStar();
+});
+
+SetRatingStar();
+$(document).ready(function() {
+
+});
+</script>
+</body>
+</html>
