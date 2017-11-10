@@ -8,7 +8,7 @@
 id: primaryNavigation
 
 ## 2 sidebarAlreadyCompleted
-![alt text](./design/component/sidebarAlreadyCompleted "#sidebarAlreadyCompleted")
+![alt text](./design/component/sidebarAlreadyCompleted.png "#sidebarAlreadyCompleted")
 
 id: sidebarAlreadyCompleted
 
