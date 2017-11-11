@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#userInfoCard{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(30,30,30);
+    font-family: sans-serif;
+}
+#userInfo_card_heading{
+    height: 60px;
+    color: rgb(254,254,254);
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#userInfo_card_heading div{
+    display: inline-block;
+}
+#userInfo_card_userpic{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#user_name{
+    margin-left: 20px;
+    padding-bottom: 10px;
+    font-size: 1.6em;
+}
+#userInfo_card_data{
+    padding-top: 26px;
+    padding-left: 12px;
+}
+#userInfo_card_data_list li{
+    padding-top: 5px;
+    list-style: none;
+}
+#userInfo_card_data{
+    color: rgb(132,132,132);
+}
+#userInfo_list_skill{
+    color: rgb(254,254,254);
+    font-size: 1.4em;
+}
+#userInfo_list_membership{
+    color: rgb(233,58,53);
+    font-size: 1.4em;
+}
+#userInfo_list_modules{
+    color: rgb(254,254,254);
+    font-size: 1.4em;
+}
+#userInfo_list_score{
+    color: rgb(233,58,53);
+    font-size: 1.4em;
+}
