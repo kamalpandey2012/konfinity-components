@@ -4,7 +4,7 @@
     padding: 0;
 }
 #sidebar{
-    width: 180px;
+    width: 190px;
     background-color:rgb(33,33,33);
     height: 1000px;
     padding-top: 30px;
@@ -13,12 +13,14 @@
     list-style: none;
     color: rgb(224,224,224);
     padding-top: 10px;
+    padding-left: 10px;
 }
 #sidebar_list{
     margin-top: 20px;
 }
 #sidebar_alreadyCompleted h3{
     color: rgb(224,224,224);
+    padding-left: 10px;
 }
 .sidebar_list_name{
     color: rgb(99,99,99);
@@ -32,6 +34,7 @@
 }
 #sidebar_mentorsOnline h3{
     color: rgb(224,224,224);
+    padding-left: 10px;
 }
 #sidebar_mentorsOnline{
     margin-top: 30px;
