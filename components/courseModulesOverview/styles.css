@@ -65,7 +65,7 @@ color: white;
     border-width: 2px;
     border-color: rgb(42,42,42);
     color: rgb(120,120,120);
-    margin-left: 5%;
+    margin-left: 3%;
 }
 #module_card_2{
     height: 290px;
@@ -74,6 +74,7 @@ color: white;
     border-width: 2px;
     border-color: rgb(42,42,42);
     color: rgb(120,120,120);
+    margin-left: 2%;
 }
 #module_card_3{
     height: 290px;
@@ -82,6 +83,7 @@ color: white;
     border-width: 2px;
     border-color: rgb(42,42,42);
     color: rgb(120,120,120);
+    margin-left: 2%;
 }
 #module_card_heading{
     padding-top: 10px;
@@ -105,22 +107,27 @@ ol li:hover{
     color: red;
 }
 #module_card_1:hover{
-   color: white;
+
+
+         color: white;
     font-size: 1.2em;
-    transition: .3s;
-    box-shadow: 10px 10px 5px black;
+      box-shadow: 10px 10px 5px black;
+        transition: .3s;
+
 }
 #module_card_2:hover{
-color: white;
+
+         color: white;
     font-size: 1.2em;
-    transition: .3s;
-    box-shadow: 10px 10px 5px black;
+      box-shadow: 10px 10px 5px black;
+        transition: .3s;
 }
 #module_card_3:hover{
-    color: white;
+
+         color: white;
     font-size: 1.2em;
-    transition: .3s;
-    box-shadow: 10px 10px 5px black;
+      box-shadow: 10px 10px 5px black;
+        transition: .3s;
 }
 #cross_button{
     height: 40px;

@@ -5,7 +5,7 @@
 
 ![alt text](./design/component/toolbar.png "#PrimaryNavigation")
 
-id: primaryNavigation
+id:primaryNavigation
 
 ## 2 menuButton
 ![alt text](./design/component/menuButton.png "#menuButton")
