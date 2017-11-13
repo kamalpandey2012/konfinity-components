@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#courseProblemsOverview{
+    font-family: sans-serif;
+    height: 500px;
+    background-color: rgb(30,30,30);
+}
+#courseProblemsOverview_header{
+color: rgb(200,200,200);
+    width: 100%;
+  height: 50px;  
+}
+#courseProblemsOverview_header_heading{
+    margin-left: 30px;
+    font-size: 1.6em;
+    width: 60px;
+    height: 40px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#courseProblemsOverview_header_completed_number{
+    color: red;
+}
+#courseProblemsOverview_header_completed{
+    float: right;
+    height: 40px;
+    width: 200px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+#courseProblemsOverview_data{
+    padding-top: 30px;
+    height: 400px;
+    color: rgb(200,200,200);
+    font-size: 0.8em;
+}
+#courseProblemsOverview_data div{
+    display: inline-block;
+}
+#problem_card{
+    height: 300px;
+    width:30%;
+    margin-left: 2.5%;
+}
+#problem_icon{
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 40%;
+    float: left;
+    background-image: url(../../design/icons/problemicon.png);
+}
+#problem_details{
+    height: 300px;
+    float: right;
+    width: 50%;
+    padding-top: 20px;
+}
+#problem_details_completed{
+    font-size: 1.8em;
+    color: rgb(250,250,250);
+}
+#problem_details_difficulty{
+    font-size: 1.8em;
+    color: rgb(250,250,250);
+}
+#problem_details_number{
+    font-size: 1.8em;
+    color: rgb(250,250,250);
+}
+#courseProblemsOverview_resume_btn{
+    height: 40px;
+    width: 90px;
+    color: red;
+    border:  2px solid red;
+    padding-top: 10px;
+    padding-left: 16px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 50px;
+    
+}
+#courseProblemsOverview_footer{
+    text-align: center;
+    height: 50px;
+}
+#courseProblemsOverview_footer a{
+    font-size: 1.4em;
+    text-decoration: none;
+    color: rgb(240,240,240);
+    text-decoration: underline;
+}
