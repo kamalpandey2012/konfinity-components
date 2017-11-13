@@ -58,16 +58,8 @@ color: white;
     display: inline-block;
 
 }
-#module_card_1{
-    height: 290px;
-    width: 30%;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(42,42,42);
-    color: rgb(120,120,120);
-    margin-left: 3%;
-}
-#module_card_2{
+
+#module_card{
     height: 290px;
     width: 30%;
     border-style: solid;
@@ -76,15 +68,7 @@ color: white;
     color: rgb(120,120,120);
     margin-left: 2%;
 }
-#module_card_3{
-    height: 290px;
-    width: 30%;
-        border-style: solid;
-    border-width: 2px;
-    border-color: rgb(42,42,42);
-    color: rgb(120,120,120);
-    margin-left: 2%;
-}
+
 #module_card_heading{
     padding-top: 10px;
     text-align: center;
@@ -107,32 +91,26 @@ color: white;
     text-decoration: none;
     color: inherit;
 }
+#module_topic_number{
+    color: rgb(120,120,120);
+}
 
 #module_card_data_list li:hover{
     color: red;
 }
 
-#module_card_1:hover{
+#module_card:hover{
+   transition-timing-function: ease-in-out; 
     color: white;
     font-size: 1.2em;
     box-shadow: 10px 10px 5px black;
-    transition: .3s;
+    border: none;
+    transition: .5s;
+    transition-timing-function: linear;
+    
 
 }
-#module_card_2:hover{
 
-         color: white;
-    font-size: 1.2em;
-      box-shadow: 10px 10px 5px black;
-        transition: .3s;
-}
-#module_card_3:hover{
-
-         color: white;
-    font-size: 1.2em;
-      box-shadow: 10px 10px 5px black;
-        transition: .3s;
-}
 #cross_button{
     height: 40px;
     width: 40px;
