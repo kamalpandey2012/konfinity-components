@@ -9,24 +9,26 @@
 <body>
     <section id="topicQueryPage">
         <div id="internal_page_topbar">
-            <p>Question asked on this topic</p>
+            <div id="internal_page_topbar_text"> <p>Course Content</p></div>
+    <div id="internal_page_topbar_text_expand"></div>
         </div>
-        
-        
+
+
         <div id="querypage_formbox">
         <div id="querypage_formbox_heading">
             <p> Source Code</p>
         </div>
         <div id="querypage_formbox_main">
-        <form id="querypage_formbox_form">
+        <div id="querypage_formbox_main_formarea"><div id="querypage_formbox_main_form"><form id="querypage_formbox_form">
             <input type="text" name="entered_query" width="100px" height="100px" placeholder="Ask your Query"><br>
-        </form>
+            </form></div>
+            <div id="cross_button"></div></div>
         <div id="querypage_formbox_form_footer">
             32 mentors online.Average answer time <span class="querypage_formbox_form_footer_span"> 2 minutes</span><button id="querypage_formbox_form_button" type="submit" form="querypage_formbox_form" value="Submit">Submit</button>
         </div>
         </div>
         </div>
-        
+
         <div id="querypage_previouslyasked">
         <h4>Previously asked queries</h4>
         <ul id="querypage_previouslyasked_list">
@@ -37,7 +39,8 @@
         </ul>
         </div>
 <div id="internal_page_footer">
-        4 / <span class="total_queries">32</span> queries
+  <a href="#"><div id="internal_page_footer_previous"></div></a>
+  <a href="#"><div id="internal_page_footer_next"></div></a>
 </div>
     </section>
 

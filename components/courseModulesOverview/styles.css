@@ -16,8 +16,14 @@
     background-color: rgb(20,20,20);
     color: rgb(120,120,120);
     font-size: 1.2em;
-    padding-top: 7px;
+    padding-top: 2px;
     padding-left: 15px;
+}
+#internal_page_topbar_text{
+    padding-top: 3px;
+}
+#internal_page_topbar div{
+    display: inline-block;
 }
 #internal_page_footer{
     text-align: center;
@@ -44,7 +50,7 @@ color: white;
     padding-top: 5px;
 }
 #courseModules_cards_collection{
-    height:370px; 
+    height:370px;
     margin-top: 30px;
 }
 
@@ -99,19 +105,19 @@ ol li:hover{
     color: red;
 }
 #module_card_1:hover{
-   color: white; 
+   color: white;
     font-size: 1.2em;
     transition: .3s;
     box-shadow: 10px 10px 5px black;
 }
 #module_card_2:hover{
-color: white; 
+color: white;
     font-size: 1.2em;
     transition: .3s;
     box-shadow: 10px 10px 5px black;
 }
 #module_card_3:hover{
-    color: white; 
+    color: white;
     font-size: 1.2em;
     transition: .3s;
     box-shadow: 10px 10px 5px black;
@@ -127,9 +133,7 @@ color: white;
 #courseModules_topbar div{
     display: inline-block;
 }
-#internal_page_topbar div{
-    display: inline-block;
-}
+
 #internal_page_topbar_text_expand{
     height: 40px;
     width: 40px;
@@ -143,7 +147,7 @@ color: white;
     width: 25px;
     background-image: url(../../design/icons/forward.png);
     float: right;
-    
+
 }
 #internal_page_footer div{
     display: inline-block;
@@ -155,6 +159,5 @@ color: white;
     float: left;
     margin-left: 20px;
     margin-bottom: 10px;
-    
-}
 
+}
