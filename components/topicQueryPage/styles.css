@@ -10,7 +10,7 @@
     margin-top: 60px;
     font-family: sans-serif;
 }
-#querypage_topbar{
+#internal_page_topbar{
     width: 100%;
     height: 40px;
     background-color: rgb(40,40,40);
@@ -73,17 +73,19 @@ input::placeholder {
     padding-top: 5px;
     
 }
-#querypage_footer{
+#internal_page_footer{
     text-align: center;
     width: 100%;
     height: 40px;
     background-color: rgb(40,40,40);
     color: rgb(120,120,120);
     font-size: 1.2em;
-    padding-top: 7px;
     padding-right: 30px;
+    padding-top: 8px;
     
 }
 .total_queries{
     color: rgb(216,51,80);
 }
+
+

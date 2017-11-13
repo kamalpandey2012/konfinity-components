@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#courseModulesOverview{
+    height: 500px;
+    width: 80%;
+    margin-left: 60px;
+    margin-top: 60px;
+    font-family: sans-serif;
+}
+#internal_page_topbar{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(40,40,40);
+    color: rgb(120,120,120);
+    font-size: 1.2em;
+    padding-top: 8px;
+    padding-left: 15px;
+}
+#internal_page_footer{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(40,40,40);
+    color: rgb(120,120,120);
+    font-size: 1.2em;
+    padding-right: 30px;
+    padding-top: 8px;
+}
+#courseModules_data{
+height:420px;
+background-color: rgb(30,30,30);
+color: white;
+}
+#courseModules_topbar{
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+#topic_heading{
+    width: 40%;
+}
+#courseModules_cards_collection{
+    height:370px; 
+    margin-top: 30px;
+}
+
+#courseModules_cards_collection div{
+    display: inline-block;
+
+}
+#module_card_1{
+    height: 290px;
+    width: 30%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(42,42,42);
+    color: rgb(120,120,120);
+    margin-left: 5%;
+}
+#module_card_2{
+    height: 290px;
+    width: 30%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(42,42,42);
+    color: rgb(120,120,120);
+}
+#module_card_3{
+    height: 290px;
+    width: 30%;
+        border-style: solid;
+    border-width: 2px;
+    border-color: rgb(42,42,42);
+    color: rgb(120,120,120);
+}
+#module_card_heading{
+    padding-top: 10px;
+    text-align: center;
+    height: 110px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(42,42,42);
+    width: 80%;
+    margin-left: 10%;
+}
+#module_card_data_list{
+    margin-left: 25%;
+    padding-top: 20px;
+    width: 100%;
+}
+#module_card_data_list li{
+    width: 100%;
+}
+ol li:hover{
+    color: red;
+}
+#module_card_1:hover{
+   color: white; 
+    font-size: 1.2em;
+    transition: .3s;
+    box-shadow: 10px 10px 5px black;
+}
+#module_card_2:hover{
+color: white; 
+    font-size: 1.2em;
+    transition: .3s;
+    box-shadow: 10px 10px 5px black;
+}
+#module_card_3:hover{
+    color: white; 
+    font-size: 1.2em;
+    transition: .3s;
+    box-shadow: 10px 10px 5px black;
+}
+
+
