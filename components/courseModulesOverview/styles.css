@@ -103,6 +103,11 @@ color: white;
 #module_card_data_list{
     width: 100%;
 }
+#module_card_data_list li a{
+    text-decoration: none;
+    color: inherit;
+}
+
 #module_card_data_list li:hover{
     color: red;
 }
