@@ -100,19 +100,18 @@ color: white;
     padding-top: 20px;
     width: 100%;
 }
-#module_card_data_list li{
+#module_card_data_list{
     width: 100%;
 }
-ol li:hover{
+#module_card_data_list li:hover{
     color: red;
 }
+
 #module_card_1:hover{
-
-
-         color: white;
+    color: white;
     font-size: 1.2em;
-      box-shadow: 10px 10px 5px black;
-        transition: .3s;
+    box-shadow: 10px 10px 5px black;
+    transition: .3s;
 
 }
 #module_card_2:hover{
@@ -168,3 +167,7 @@ ol li:hover{
     margin-bottom: 10px;
 
 }
+div#module_card_data{
+    width: 100%;
+}
+
