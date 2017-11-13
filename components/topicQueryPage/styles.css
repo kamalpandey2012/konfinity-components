@@ -18,6 +18,7 @@
     font-size: 1.2em;
     padding-top: 2px;
     padding-left: 15px;
+    display: inline-block;
 }
 #internal_page_topbar_text{
     padding-top: 3px;
@@ -137,5 +138,6 @@ input::placeholder {
     padding-bottom: 10px;
 }
 #querypage_formbox_main_formarea div{
+  
     display: inline-block;
 }
